@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+.rback {
+    background-color: rgba(255, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+
+.bigger-font {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#numb2 {
+    color: rgba(0, 0, 255, 1);
+    font-weight: bold;
+    font-size: 64px;
+}
+
+#numb4 {
+    background-color: rgba(0, 255, 0, 0.5);
+    font-weight: bold;
+    font-size: 46px;
+}
