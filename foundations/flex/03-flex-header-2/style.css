@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex; /*Para usar flex*/
+  justify-content: space-between; /*Hace que los elementos (izquierdos y derechos) ocupen el ancho de la pantalla sin modificar su tamaño original*/
+  padding: 10px;
 }
 
 .profile-image {
@@ -45,4 +48,15 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex; /*Activa flex*/
+  gap: 20px; /*Da espacio entre los elementos*/
+  padding: 0px; /*Configura el padding a 0px en los elementos*/
+  margin: 0px; /*Configura el margin a 0px en los elementos*/
+}
+
+.left-elements,
+.right-elements {
+  display: flex; /*Activa flex*/
+  align-items: center; /*Centra los elementos verticalmente con respecto al contenedor*/
+  gap: 20px;
 }
