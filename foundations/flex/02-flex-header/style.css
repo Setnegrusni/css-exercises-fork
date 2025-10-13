@@ -1,6 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex; /*Para usar flex*/
+  justify-content: space-between; /*Para distribuirlos a lo ancho de la pantalla manteniendo su tamaño*/
+  align-items: center; /*Centrar verticalmente*/
+  padding: 10px; /*Espaciado entre contenido y bordes del contenedor*/
 }
 
 .logo {
@@ -14,6 +18,9 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex; /*Activa flex a los elementos del elemento*/
+  gap: 10px; /*Espaciado entre los elementos*/
+  padding: 0px;
 }
 
 a {
