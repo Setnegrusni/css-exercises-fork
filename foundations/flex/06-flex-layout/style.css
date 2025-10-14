@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /*cambios por ejercicio*/
+  display: flex; /*Activa flex*/
+  flex-direction: column; /*Se trabaja como columnas en lugar de renglones*/
 }
 
 img {
@@ -16,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /*cambios por ejercicio*/
+  padding: 8px 16px; /*Espaciado superior en inferior de 8px y laterales de 16px*/
 }
 
 input {
@@ -23,4 +28,40 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.content {
+  display: flex; /*Activa flex*/
+  flex-direction: column; /*Se trabaja como columnas en lugar de renglones*/
+  flex: 1; /*Espaciado equitativo para los elementos*/
+  align-items: center; /*Centrado horizontal (porque se está trabajando como columnas)*/
+  justify-content: center; /*Centrado vertical (porque se está trabajando como columnas)*/
+  gap: 10px; /*Espaciado entre elementos*/
+}
+
+.header,
+.footer {
+  display: flex; /*Activa flex*/
+  justify-content: space-between; /*Espaciado equitativo sin alterar tamaños originales*/
+  padding: 0px 16px; /*Espacio entre contenido y borde; superior e inferior de 0px y laterales de 16px*/
+}
+
+.footer {
+  background-color: #eeeeee; /*Color de fondo*/
+}
+
+ul {
+  list-style-type: none; /*Quita los puntos (balas) de la lista*/
+}
+
+a {
+  text-decoration: none; /*Quita subrayado de los links*/
+  color: gray; /*Color del texto*/
+}
+
+.left-links,
+.right-links {
+  display: flex; /*Activa flex*/
+  gap: 16px; /*Espaciado entre elementos*/
+  padding: 0px; /*Espacio entre contenido y bordes*/
 }
